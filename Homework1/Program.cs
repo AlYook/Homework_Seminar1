@@ -14,7 +14,9 @@ if (num1 > num2)
 {
     Console.Write($"max = {num1}, min = {num2}");
 }
-else
+else if (num1 < num2)
 {
    Console.Write($"max = {num2}, min = {num1}"); 
 }
+else
+    Console.WriteLine($"{num1} = {num2}");
